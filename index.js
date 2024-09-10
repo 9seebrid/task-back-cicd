@@ -15,7 +15,7 @@ app.use(cors()); // cors 사용 설정 http, https 프로토콜을 사용하는 
 app.use(express.json()); // json 형식 사용 설정
 
 app.get('/', (req, res) => {
-  res.send('Hello World!'); // get 요청 시 Hello World! 출력
+  res.send('Hello World! linode server test'); // get 요청 시 Hello World! 출력
 }); // get 요청 시 실행할 함수
 
 // app.get('/get_tasks', async (req, res) => {
